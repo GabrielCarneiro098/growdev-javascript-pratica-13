@@ -38,7 +38,7 @@ function filtrarVeiculo() {
 }
 
 function atualizarVeiculo() {
-  let identificador = prompt("Digite o id do vepiculo:");
+  let identificador = prompt("Digite o id do veículo:");
 
   const carro = carros.find(function (carro) {
     return carro.id == identificador;
