@@ -13,7 +13,7 @@ function cadastrarVeiculo() {
   carro.modelo = prompt("Digite modelo:");
   carro.marca = prompt("Digite marca:");
   carro.ano = prompt("Ano de fabrica:");
-  carro.cor = prompt("Digite modelo:");
+  carro.cor = prompt("Digite cor:");
   carro.preco = prompt("Digite preço do carro:");
   carros.push(carro);
 
